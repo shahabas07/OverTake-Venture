@@ -184,7 +184,26 @@ form {
     bottom: 90px;
     left: 100px;
 }
-
+/* --------popup-responsive--------------- */
+@media only screen and (max-width: 500px){
+    .bigb{
+        transform:scale(.6);
+        width: 60vw;
+    }
+    .bigb h2{
+        font-size: large;
+        margin-top: 0px;
+    }
+    .box1,.box2{
+        height: auto;
+    }
+    .leftarrow{
+        position: absolute;
+        top: 0px;
+        left: 10px;
+        transform:scale(.7);
+    }
+}
 /* ----------gameplay-------------- */
 .container2 {
     background-size: cover;
